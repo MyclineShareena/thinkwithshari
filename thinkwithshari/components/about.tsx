@@ -1,0 +1,40 @@
+const skills = [
+  "Python", "AWS", "Databricks", "LangGraph", "FastAPI", "Docker",
+  "Kubernetes", "Pinecone", "OpenAI API", "SQL", "Apache Airflow",
+  "Azure", "Streamlit", "Java", "LangChain", "Anthropic API",
+]
+
+export function About() {
+  return (
+    <section id="about" style={{ backgroundColor: "#F5F0E8" }} className="py-20 px-6">
+      <div className="max-w-6xl mx-auto">
+        <p className="font-body font-medium text-[12px] uppercase tracking-[0.15em] mb-4" style={{ color: "#00B4D8" }}>
+          ABOUT
+        </p>
+        <h2 className="font-heading font-bold text-[28px] md:text-[36px] mb-12" style={{ color: "#0A2342" }}>
+          Building where cloud, data, and AI intersect.
+        </h2>
+        <div className="flex flex-col lg:flex-row gap-12">
+          <div className="lg:w-[60%]">
+            <p className="font-body font-normal text-[16px] md:text-[17px] leading-[1.8]" style={{ color: "#0A2342" }}>
+              {"I'm MyclineShareena — an MS Information Systems student at Northeastern University graduating May 2027, and an AI Engineer who designs and ships production-grade intelligent systems. Before my MS, I spent 1.5 years as a Data Analyst at BankBazaar, shipping ETL pipelines and automation workflows for a live financial platform. I own the full stack: orchestration, pipeline, deployment."}
+            </p>
+          </div>
+          <div className="lg:w-[40%]">
+            <div className="flex flex-wrap gap-2">
+              {skills.map((skill) => (
+                <span
+                  key={skill}
+                  className="font-heading font-medium text-[13px] rounded-[20px] px-3.5 py-1.5"
+                  style={{ color: "#0A2342", border: "1.5px solid #0A2342", backgroundColor: "transparent" }}
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
