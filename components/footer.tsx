@@ -15,7 +15,7 @@ export function Footer() {
             Substack
           </a>
           <a
-            href="https://www.linkedin.com/in/myclineshareena/"
+            href="https://www.linkedin.com/in/mycline-shareena-j-9b8128168/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-body text-[13px] text-[#00B4D8] hover:opacity-75 transition-opacity"

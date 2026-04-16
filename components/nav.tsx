@@ -12,7 +12,7 @@ const navLinks = [
 
 const socialLinks = [
   { href: "https://myclineshareena.substack.com", label: "Substack" },
-  { href: "https://www.linkedin.com/in/myclineshareena/", label: "LinkedIn" },
+  { href: "https://www.linkedin.com/in/mycline-shareena-j-9b8128168/", label: "LinkedIn" },
 ]
 
 export function Nav() {
