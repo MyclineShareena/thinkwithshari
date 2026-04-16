@@ -17,7 +17,7 @@ export function Hero() {
 
         {/* Description */}
         <p className="font-body font-normal text-[#F5F0E8]/80 text-[16px] md:text-[18px] max-w-[600px] mx-auto mt-6 leading-relaxed">
-          I close the gap between raw data and production AI — architecting
+          I close the gap between raw data and production AI, architecting
           orchestration, building pipelines, deploying systems on AWS.
         </p>
 
