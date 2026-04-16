@@ -7,7 +7,13 @@ const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
+  { href: "#brand", label: "Brand" },
   { href: "#contact", label: "Contact" },
+]
+
+const socialLinks = [
+  { href: "https://myclineshareena.substack.com", label: "Substack" },
+  { href: "https://www.linkedin.com/in/myclineshareena/", label: "LinkedIn" },
 ]
 
 export function Nav() {
@@ -37,12 +43,24 @@ export function Nav() {
           </a>
 
           {/* Desktop Nav Links */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 className="font-body text-[#F5F0E8] text-base hover:text-[#00B4D8] transition-colors duration-200 hover:underline underline-offset-4"
+              >
+                {link.label}
+              </a>
+            ))}
+            <div className="h-4 w-px bg-[#00B4D8]/30" />
+            {socialLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-body text-[#00B4D8] text-sm hover:opacity-75 transition-opacity duration-200"
               >
                 {link.label}
               </a>
