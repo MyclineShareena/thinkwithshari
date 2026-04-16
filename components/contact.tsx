@@ -29,8 +29,7 @@ export function Contact() {
           {"Let's Connect"}
         </h2>
         <p className="font-body font-normal text-[16px] md:text-[17px] text-[#F5F0E8]/75 mb-10 max-w-xl mx-auto">
-          Open to AI Engineer, Data Engineer, and ML Engineer roles —
-          internships and co-ops through Northeastern CPT, starting May 2026.
+          MS Information Systems student at Northeastern University. Incoming Data Science Intern at Ascension Health starting May 2026. Open to full-time AI Engineer and Data Engineer roles from Dec 2026.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 mb-10">
           {contactLinks.map((link) => (
